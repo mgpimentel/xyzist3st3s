@@ -1,0 +1,12 @@
+{
+  "ex1": "*EX1 — Fila com senha #1.*\n\nDado o número que está no painel, informe qual é o próximo número a ser chamado.\n\n*Exemplo*\n\nVocê digita:\n```\n7\n```\nO programa imprime:\n```\n8\n```",
+  "ex2": "*EX2 — Fila com senha #2.*\n\nDado o número do seu papel de senha, informe qual número estará no painel imediatamente antes da sua vez.\n\n*Exemplo*\n\nVocê digita:\n```\n42\n```\nO programa imprime:\n```\n41\n```",
+  "ex3": "*EX3 — Fila com senha #3.*\n\nDado o seu número de senha e o número atualmente no painel (nessa ordem), informe quantas pessoas faltam para chegar a sua vez.\n\n*Exemplo*\n\nVocê digita:\n```\n50\n45\n```\nO programa imprime:\n```\n5\n```",
+  "ex4": "*EX4 — Vacinação em dobro.*\n\nEm uma campanha especial, cada pessoa recebe duas doses no mesmo dia. Dado o número de pessoas atendidas, informe o total de doses aplicadas.\n\n*Exemplo*\n\nVocê digita:\n```\n5\n```\nO programa imprime:\n```\n10\n```",
+  "ex5": "*EX5 — Vacinação da semana.*\n\nInforme o total de vacinas aplicadas somando os 7 valores (um por linha) correspondentes aos dias de uma semana.\n\n*Exemplo*\n\nVocê digita:\n```\n10\n0\n5\n5\n0\n0\n2\n```\nO programa imprime:\n```\n22\n```",
+  "ex6": "*EX6 — Presente?*\n\nVocê está conferindo presença em uma chamada. Cada linha contém *P* (presente) ou *A* (ausente). A sequência termina com um ponto final `.`.\n\nInforme quantas presenças foram registradas.\n\n*Exemplo*\n\nVocê digita:\n```\nP\nA\nP\nP\n.\n```\nO programa imprime:\n```\n3\n```",
+  "ex7": "*EX7 — Calculadora particular.*\n\nDados dois valores (um por linha), imprima quatro linhas na ordem: soma, diferença (primeiro menos segundo), produto e quociente (primeiro dividido pelo segundo). Use duas casas decimais.\n\n*Exemplo*\n\nVocê digita:\n```\n5\n2\n```\nO programa imprime:\n```\n7.00\n3.00\n10.00\n2.50\n```",
+  "ex8": "*EX8 — Feliz Aniversário!*\n\nDado um nome (uma linha), imprima a mensagem: `Feliz aniversário, NOME!`\n\n*Exemplo*\n\nVocê digita:\n```\nMaria\n```\nO programa imprime:\n```\nFeliz aniversário, Maria!\n```",
+  "ex9": "*EX9 — Chego em 91 minutos...*\n\nDada uma hora no formato `HH:MM` (24h), informe o horário que será 91 minutos depois.\n\n*Exemplo*\n\nVocê digita:\n```\n13:00\n```\nO programa imprime:\n```\n14:31\n```",
+  "ex10": "*EX10 — Dados para uma compra consciente.*\n\nDadas duas linhas, o *saldo disponível* e o *preço de um item*, informe o valor restante caso a compra seja realizada. Use duas casas decimais.\n\n*Exemplo*\n\nVocê digita:\n```\n100\n80\n```\nO programa imprime:\n```\n20.00\n```"
+}
