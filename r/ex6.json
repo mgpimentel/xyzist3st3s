@@ -1,0 +1,31 @@
+{
+  "hash_alg": "sha256",
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Maria\nCampos\nPimentel\n",
+      "saida_hash": "780c6226ace682c0f3ac389ed4d0c8cb7488e7ee1b4d000ffb8e9e311811e547",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Ada\nByron\nLovelace\n",
+      "saida_hash": "caee24f9e735d6c426458e95997838e4b773a18537d989fa6a5bb3bf0b705e11",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Ana\nClara\nSilva\n",
+      "saida_hash": "6cc53d38704ab2802ef423a44c2273f7245ad8e1202cfe0f56bdcbe9dccacb4a",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Yasmin\nMioko\nSampaio\n\n",
+      "saida_hash": "33af7d1e59321e2f0389f44357739582aafb16394ac35348a4b2108a9538a4ac",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Julia\nLamarr\nVanci\n\n\n",
+      "saida_hash": "a0fe682790817034e40f5b7d966672dde30ab70aa5c0280dd9222320be6614b4",
+      "normalizacao": "strip"
+    }
+  ]
+}

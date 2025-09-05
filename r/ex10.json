@@ -1,0 +1,31 @@
+{
+  "hash_alg": "sha256",
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "50.00\n15.99\n\n\n\n\n\n\n",
+      "saida_hash": "4d04b960b80fd91d4510fe1e81bd6120f2bf17751fcde0d923c592ec1d52fd61",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "10.00\n15.99\n\n\n\n\n\n\n",
+      "saida_hash": "befae9a4b079f488533b2e2579a77e30cf8c36bb90783b7570175c34e4f95d6c",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "100.00\n15.99\n\n\n\n\n\n\n",
+      "saida_hash": "f2faea63346bea801591b64e14e7084d3433ac70352e31d9a5193859e1923cef",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "100.00\n50.50\n\n\n\n\n\n\n",
+      "saida_hash": "34c66cafdac6b3905fad6db92a9b03c4f2d58ea76e8e5df688fcacd031dd06f1",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "100.00\n150.50\n\n\n\n\n\n\n",
+      "saida_hash": "c80bd1559bcaba4f6c920a0c2e2f5edcd1ee70c5d51aec69566e1522c09ee671",
+      "normalizacao": "strip"
+    }
+  ]
+}

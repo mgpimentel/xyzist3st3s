@@ -1,0 +1,31 @@
+{
+  "hash_alg": "sha256",
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Graça\n64\n\n",
+      "saida_hash": "c9cab9d1a22d7b88a8edd14092aeced4f0a2c6616c00d86f9b1cc7b803c5ad49",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Bia\n23\n\n\n",
+      "saida_hash": "74419de196e6e210eb60a5a622f585131d0aff153ca575988cb99f492af70ba5",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Soraya\n33\n\n\n\n",
+      "saida_hash": "9d16b1b597920638d387e20968120e7352da23b96cfdd74be336a017b43fe196",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Jane\n43\n\n\n\n",
+      "saida_hash": "30193d41897d01da74ac2b1aba5690584567552823f2e9a5b7bffc3acc1d9faf",
+      "normalizacao": "strip"
+    },
+    {
+      "entrada": "Meire\n39\n\n\n\n\n",
+      "saida_hash": "4e01a5c4d31e6bd9a580d8b408cae07ef662552ab7d423d717c015d67fd0340a",
+      "normalizacao": "strip"
+    }
+  ]
+}
