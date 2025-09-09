@@ -1,0 +1,26 @@
+{
+  "normalizacao": "strip",
+  "hash_alg": "sha256",
+  "cases": [
+    {
+      "entrada": "6\n10\n15\n15\n12\n8\n2",
+      "saida_hash": "13a24cc15f599e667186aaf91f502b6ab38b8159a479a3f4e5ad10e376c780ae"
+    },
+    {
+      "entrada": "8\n21\n20\n10\n15\n15\n12\n8\n2",
+      "saida_hash": "23a4c2975981d3effdda9521246885bd3d15c27e6383a63e863fe1943092eb35"
+    },
+    {
+      "entrada": "4\n15\n15\n12\n18\n",
+      "saida_hash": "e39715a5d0721a1e01069243bf0106b23dfa44c4b1d32e9a77d21bb0d8ae6d20"
+    },
+    {
+      "entrada": "5\n15\n15\n19\n12\n18\n",
+      "saida_hash": "36e0499eed6b8b3bbb435e9108f2753c45aef8babfc80639cedddc8fc376e125"
+    },
+    {
+      "entrada": "9\n1\n2\n3\n4\n5\n6\n7\n8\n9\n",
+      "saida_hash": "2e6d4e177d7e97cf9c922c66f78a6b1a50209c44be0776737e882dd0d3411bb9"
+    }
+  ]
+}
