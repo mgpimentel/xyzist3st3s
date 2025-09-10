@@ -3,24 +3,24 @@
   "hash_alg": "sha256",
   "cases": [
     {
-      "entrada": "50\n20",
-      "saida_hash": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4"
+      "entrada": "5\n6\n\n",
+      "saida_hash": "a809ce4e40b2921f890caaf6a13f3c213ef7121830bb8fcb0da6d0ca787bdc4b"
     },
     {
-      "entrada": "25\n30",
-      "saida_hash": "479bbe783be61348bcfcc5ff51d5039f599a8c7bb91dfd06c03e2d37e671b393"
+      "entrada": "51\n6\n\n",
+      "saida_hash": "69e721755af449717613cef8b2c163fb88f9c90456ce78fa4e672dcf2242d920"
     },
     {
-      "entrada": "125\n30",
-      "saida_hash": "ad48ff99415b2f007dc35b7eb553fd1eb35ebfa2f2f308acd9488eeb86f71fa8"
+      "entrada": "1\n61\n\n",
+      "saida_hash": "a809ce4e40b2921f890caaf6a13f3c213ef7121830bb8fcb0da6d0ca787bdc4b"
     },
     {
-      "entrada": "125\n130",
-      "saida_hash": "479bbe783be61348bcfcc5ff51d5039f599a8c7bb91dfd06c03e2d37e671b393"
+      "entrada": "61\n61\n\n",
+      "saida_hash": "69e721755af449717613cef8b2c163fb88f9c90456ce78fa4e672dcf2242d920"
     },
     {
-      "entrada": "125\n125",
-      "saida_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      "entrada": "0\n61\n\n",
+      "saida_hash": "a809ce4e40b2921f890caaf6a13f3c213ef7121830bb8fcb0da6d0ca787bdc4b"
     }
   ]
 }
