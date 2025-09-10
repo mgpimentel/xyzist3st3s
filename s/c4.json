@@ -1,0 +1,62 @@
+{
+  "normalizacao": "strip",
+  "hash_alg": "sha256",
+  "cases": [
+    {
+      "entrada": "W\n\n",
+      "saida_hash": "42cb4e6f84970e97d515b9d57dfd4e4fef5d482061b7d2c33179f2ad76495e11"
+    },
+    {
+      "entrada": "w\n\n",
+      "saida_hash": "42cb4e6f84970e97d515b9d57dfd4e4fef5d482061b7d2c33179f2ad76495e11"
+    },
+    {
+      "entrada": "S\n",
+      "saida_hash": "d45b3383faf6e04f443c7ca602ba151b533d27c8f7394524aad4f3480523a71b"
+    },
+    {
+      "entrada": "s\n",
+      "saida_hash": "d45b3383faf6e04f443c7ca602ba151b533d27c8f7394524aad4f3480523a71b"
+    },
+    {
+      "entrada": "a\n",
+      "saida_hash": "2cba9d25c1eaf7f3ef0e86b1562165b1d66e950ff5155de71b68049916145faf"
+    },
+    {
+      "entrada": "A\n",
+      "saida_hash": "2cba9d25c1eaf7f3ef0e86b1562165b1d66e950ff5155de71b68049916145faf"
+    },
+    {
+      "entrada": "D",
+      "saida_hash": "c4ce3c7ad82c8235da21fae8ea48e071a10e7b1c6df6a9e5b4603852d8b3001c"
+    },
+    {
+      "entrada": "d",
+      "saida_hash": "c4ce3c7ad82c8235da21fae8ea48e071a10e7b1c6df6a9e5b4603852d8b3001c"
+    },
+    {
+      "entrada": "z",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    },
+    {
+      "entrada": "Z",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    },
+    {
+      "entrada": "0",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    },
+    {
+      "entrada": ".",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    },
+    {
+      "entrada": "q",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    },
+    {
+      "entrada": "x",
+      "saida_hash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1"
+    }
+  ]
+}
