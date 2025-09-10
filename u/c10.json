@@ -3,24 +3,24 @@
   "hash_alg": "sha256",
   "cases": [
     {
-      "entrada": "10\n0.50\n0.25\n1.00\n0.25\n1.00\n0.25\n1.00\n0.25\n1.00\n0.25\n\n\n",
-      "saida_hash": "70d9b21e78ff3a4f863d77dcf2fbb9c0c3657c9f135af19822e948719951c640"
+      "entrada": "10\n10.00\n5.00\n15.00\n10.00\n5.00\n10.00\n15.00\n10.00\n15.00\n5.00",
+      "saida_hash": "d66c66a96157220af2fe47c6d564d0d2a61d9d441a2e52a92bc78b15876053c8"
     },
     {
-      "entrada": "5\n1.00\n1.00\n1.00\n1.00\n1.00\n\n\n",
-      "saida_hash": "a19a1584344c1f3783bff51524a5a4b86f2cc09356c9dbfb6af9cd236e314362"
+      "entrada": "8\n15.00\n10.00\n5.00\n10.00\n15.00\n10.00\n15.00\n5.00",
+      "saida_hash": "249d7b629435b4c3a07948313d691f121f65d2fdf922ce7fc3b215881806d25f"
     },
     {
-      "entrada": "11\n0.50\n1.00\n1.00\n1.00\n1.00\n1.00\n0.50\n0.50\n0.50\n0.50\n0.50\n",
-      "saida_hash": "7b1bd53949b752d143d871408483b5382371b5bc48d195d0c040ec93cfa2748b"
+      "entrada": "7\n15.00\n10.00\n5.00\n10.00\n15.00\n10.00\n15.00\n50.00",
+      "saida_hash": "4ff4f4e8f056b472b130013c2c12e9c1038d417d4428fd6655d96eedc9c5c44b"
     },
     {
-      "entrada": "15\n0.50\n1.00\n0.25\n1.00\n0.25\n1.00\n1.00\n0.25\n1.00\n0.50\n0.25\n0.50\n0.50\n0.50\n0.50\n0.25\n",
-      "saida_hash": "b7edbb1d306a68faf170673ebef76f1dfef2045c0c190bdc1bb37837e37504a4"
+      "entrada": "1\n15.00\n",
+      "saida_hash": "0856fec27d2349c2b70d721c51306b36a429ee03a77f294fc96223226c0c9b5f"
     },
     {
-      "entrada": "1\n0.25\n",
-      "saida_hash": "a30a043314fa89294fa2c1c989a01fbb5329e5c085a5c5a8d27317656de24ae0"
+      "entrada": "15\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n15.00\n",
+      "saida_hash": "a87f9f4d422daed7b2edfc8e1b87c67522f601b637e1c6df14f6a019209bef35"
     }
   ]
 }
