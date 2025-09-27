@@ -1,0 +1,13 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Duda1\nDuda2\nlavando\nlavando\nDuda3\nDuda4\nlavando\nlavando\nlavando\nlavando\nfinal feliz\n",
+      "saida": "lavando prato de Duda2\nlavando prato de Duda1\nlavando prato de Duda4\nlavando prato de Duda3\n"
+    },
+    {
+      "entrada": "Duda1\nDuda2\nDuda3\nDuda4\nlavando\nlavando\nlavando\nlavando\nlavando\nlavando\nfinal feliz\n",
+      "saida": "lavando prato de Duda4\nlavando prato de Duda3\nlavando prato de Duda2\nlavando prato de Duda1\n"
+    }
+  ]
+}

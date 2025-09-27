@@ -1,0 +1,21 @@
+{
+  "lista": 5,
+  "exercicio": 12,
+  "exercise_key": "ex12",
+  "normalizacao": "strip",
+  "author_id": "profa Maria da Graça Campos Pimentel",
+  "created_at": "2025-09-27T19:37:17Z",
+  "notes": "",
+  "solution_code_sha256": "7a34c4458fe8ae014543723cd1d8e4a5167058a14c1af0ee995d839f439c0dd5",
+  "solution_code": "# Solução simples\npilha = []\nwhile True:\n    s = input().strip()\n    if s == 'final feliz':\n        break\n    if s == 'lavando':\n        if pilha:\n            nome = pilha.pop()\n            print('lavando prato de', nome)\n        else:\n            pass\n    else:\n        pilha.append(s)",
+  "cases": [
+    {
+      "entrada": "Duda1\nDuda2\nlavando\nlavando\nDuda3\nDuda4\nlavando\nlavando\nlavando\nlavando\nfinal feliz\n",
+      "saida": "lavando prato de Duda2\nlavando prato de Duda1\nlavando prato de Duda4\nlavando prato de Duda3\n"
+    },
+    {
+      "entrada": "Duda1\nDuda2\nDuda3\nDuda4\nlavando\nlavando\nlavando\nlavando\nlavando\nlavando\nfinal feliz\n",
+      "saida": "lavando prato de Duda4\nlavando prato de Duda3\nlavando prato de Duda2\nlavando prato de Duda1\n"
+    }
+  ]
+}
