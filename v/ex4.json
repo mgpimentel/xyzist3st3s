@@ -1,0 +1,17 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "4\nCarla\nAna\nBeatriz\nDaniela\n",
+      "saida": "['Carla', 'Ana', 'Beatriz', 'Daniela']\n['Ana', 'Beatriz', 'Carla', 'Daniela']\n"
+    },
+    {
+      "entrada": "1\nCarla\n",
+      "saida": "['Carla']\n['Carla']\n"
+    },
+    {
+      "entrada": "6\nCarlaC\nCarlaG\nCarlaF\nCarlaD\nCarlaS\nCarlaA\n",
+      "saida": "['CarlaC', 'CarlaG', 'CarlaF', 'CarlaD', 'CarlaS', 'CarlaA']\n['CarlaA', 'CarlaC', 'CarlaD', 'CarlaF', 'CarlaG', 'CarlaS']\n"
+    }
+  ]
+}

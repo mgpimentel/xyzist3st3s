@@ -1,0 +1,17 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Ana\nYasmin\nDani\n.\n",
+      "saida": "['Ana', 'Yasmin', 'Dani']\n"
+    },
+    {
+      "entrada": "Ana\n.\n",
+      "saida": "['Ana']\n"
+    },
+    {
+      "entrada": "Ana1\nAna2\nAna3\nAna4\nAna5\n.\n",
+      "saida": "['Ana1', 'Ana2', 'Ana3', 'Ana4', 'Ana5']\n"
+    }
+  ]
+}

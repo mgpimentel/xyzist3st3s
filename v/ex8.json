@@ -1,0 +1,33 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "abc12defg\n\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "1234567\n\n\n\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "asdfghjklç\n\n\n\n",
+      "saida": "Verifique algarismos\n"
+    },
+    {
+      "entrada": "asdfg\n\n\n\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "asdf1234\n\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "mnbhyujkç~%$#@!'\n\n\n\n",
+      "saida": "Verifique algarismos\n"
+    },
+    {
+      "entrada": "mnbhyujkç~%$#@!1\n\n\n\n",
+      "saida": "OK!\n"
+    }
+  ]
+}

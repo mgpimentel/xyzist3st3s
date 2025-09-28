@@ -1,0 +1,25 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "000000\n",
+      "saida": "Tudo igual, não!\n"
+    },
+    {
+      "entrada": "0000\n",
+      "saida": "Tudo igual, não!\n"
+    },
+    {
+      "entrada": "xxxxxxy\n\n",
+      "saida": "Alguma coisa está diferente!\n"
+    },
+    {
+      "entrada": "xxxxxx\n\n",
+      "saida": "Tudo igual, não!\n"
+    },
+    {
+      "entrada": "1234567890\n\n\n",
+      "saida": "Alguma coisa está diferente!\n"
+    }
+  ]
+}

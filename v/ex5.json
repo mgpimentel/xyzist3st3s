@@ -1,0 +1,17 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Ana\nDuda\nCarla\nBia\n.",
+      "saida": "4 ['Ana', 'Duda', 'Carla', 'Bia']\n4 ['Bia', 'Carla', 'Duda', 'Ana']\n"
+    },
+    {
+      "entrada": "Bia\n.",
+      "saida": "1 ['Bia']\n1 ['Bia']\n"
+    },
+    {
+      "entrada": "Bia1\nBia2\nBia3\nBia4\nBia5\nBia6\n.",
+      "saida": "6 ['Bia1', 'Bia2', 'Bia3', 'Bia4', 'Bia5', 'Bia6']\n6 ['Bia6', 'Bia5', 'Bia4', 'Bia3', 'Bia2', 'Bia1']\n"
+    }
+  ]
+}

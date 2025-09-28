@@ -1,0 +1,41 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "aeiou\n\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "Abcdef1+\n",
+      "saida": "Ok!\n"
+    },
+    {
+      "entrada": "aeiou+1\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "Abcdef123",
+      "saida": "Erro!\n"
+    },
+    {
+      "entrada": "aeiou+AEIOU\n",
+      "saida": "Erro!\n"
+    },
+    {
+      "entrada": "aeiou+AEIOU0\n",
+      "saida": "Ok!\n"
+    },
+    {
+      "entrada": "aeiou+aeiou0\n",
+      "saida": "Erro!\n"
+    },
+    {
+      "entrada": "Aa1+!@#$%&*+=",
+      "saida": "Ok!\n"
+    },
+    {
+      "entrada": "!@#$%&*+=",
+      "saida": "Erro!\n"
+    }
+  ]
+}

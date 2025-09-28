@@ -1,0 +1,25 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "13\nL\nL\nO\nL\n",
+      "saida": "Avançar\nBateria: 12\nAvançar\nBateria: 11\nVirar\nBateria: 6\nAvançar\nBateria: 5\navancos: 3\nviradas: 1\nRecarregar...\n"
+    },
+    {
+      "entrada": "10\nL\nL\nL\nL\nL\n",
+      "saida": "Avançar\nBateria: 9\nAvançar\nBateria: 8\nAvançar\nBateria: 7\nAvançar\nBateria: 6\nAvançar\nBateria: 5\navancos: 5\nviradas: 0\nRecarregar...\n"
+    },
+    {
+      "entrada": "15\nL\nL\nL\nL\nL\nO\n\n",
+      "saida": "Avançar\nBateria: 14\nAvançar\nBateria: 13\nAvançar\nBateria: 12\nAvançar\nBateria: 11\nAvançar\nBateria: 10\nVirar\nBateria: 5\navancos: 5\nviradas: 1\nRecarregar...\n"
+    },
+    {
+      "entrada": "15\nO\nO\n\n",
+      "saida": "Virar\nBateria: 10\nVirar\nBateria: 5\navancos: 0\nviradas: 2\nRecarregar...\n"
+    },
+    {
+      "entrada": "5\n\n",
+      "saida": "avancos: 0\nviradas: 0\nRecarregar...\n"
+    }
+  ]
+}

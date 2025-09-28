@@ -1,0 +1,25 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "pilha AA\numa pilha AAA\npapel\npastico\nbateria 9V\n.",
+      "saida": "validos: 3 ['pilha AA', 'uma pilha AAA', 'bateria 9V']\ninvalidos: 2 ['papel', 'pastico']\n"
+    },
+    {
+      "entrada": "pilha AA\numa pilha AAA\nbateria 9V\n.",
+      "saida": "validos: 3 ['pilha AA', 'uma pilha AAA', 'bateria 9V']\ninvalidos: 0 []\n"
+    },
+    {
+      "entrada": "papel\npastico\nbateria 9V\n.",
+      "saida": "validos: 1 ['bateria 9V']\ninvalidos: 2 ['papel', 'pastico']\n"
+    },
+    {
+      "entrada": "pastico\nbateria 9V\n.",
+      "saida": "validos: 1 ['bateria 9V']\ninvalidos: 1 ['pastico']\n"
+    },
+    {
+      "entrada": "pilha AA\numa pilha AAA\npapel\nplastico\nbateria 9V\npilha AA\numa pilha AAA\npapel\nplastico\nbateria 9V\npilha AA\numa pilha AAA\npapel\nplastico\nbateria 9V\n.",
+      "saida": "validos: 9 ['pilha AA', 'uma pilha AAA', 'bateria 9V', 'pilha AA', 'uma pilha AAA', 'bateria 9V', 'pilha AA', 'uma pilha AAA', 'bateria 9V']\ninvalidos: 6 ['papel', 'plastico', 'papel', 'plastico', 'papel', 'plastico']\n"
+    }
+  ]
+}

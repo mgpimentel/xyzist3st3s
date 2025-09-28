@@ -1,0 +1,53 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "mnbhyujkç~%$#@!1\n\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "çlkjhgfds\n\n\n",
+      "saida": "Verifique algarismo e vogal\n"
+    },
+    {
+      "entrada": "oie+afff\n\n\n\n",
+      "saida": "Verifique algarismo\n"
+    },
+    {
+      "entrada": "xyz01zyz\n\n\n",
+      "saida": "Verifique vogal\n"
+    },
+    {
+      "entrada": "xyz1Azyz\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "xyz1Az\n\n\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "xyz1Azyzxyz1Azyz\n\n\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "1234567\n\n\n\n",
+      "saida": "Verifique tamanho\n"
+    },
+    {
+      "entrada": "asdfgAEI\n\n\n\n",
+      "saida": "Verifique algarismo\n"
+    },
+    {
+      "entrada": "1234567u\n\n\n\n",
+      "saida": "OK!\n"
+    },
+    {
+      "entrada": "12345678\n\n\n\n",
+      "saida": "Verifique vogal\n"
+    },
+    {
+      "entrada": "lkjhgfds\n\n\n\n",
+      "saida": "Verifique algarismo e vogal\n"
+    }
+  ]
+}

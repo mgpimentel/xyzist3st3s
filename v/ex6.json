@@ -1,0 +1,17 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Iasmin\nMonica\nDriele\nOlga\nAbigail\n.\n",
+      "saida": "['Iasmin', 'Monica', 'Driele', 'Olga', 'Abigail']\n['Abigail', 'Driele', 'Iasmin', 'Monica', 'Olga']\n['Olga', 'Monica', 'Iasmin', 'Driele', 'Abigail']\n"
+    },
+    {
+      "entrada": "Iasmin\n.\n",
+      "saida": "['Iasmin']\n['Iasmin']\n['Iasmin']\n"
+    },
+    {
+      "entrada": "IasminY\nIasminT\nIasminR\nIasminE\nIasminW\nIasminQ\n.\n",
+      "saida": "['IasminY', 'IasminT', 'IasminR', 'IasminE', 'IasminW', 'IasminQ']\n['IasminE', 'IasminQ', 'IasminR', 'IasminT', 'IasminW', 'IasminY']\n['IasminY', 'IasminW', 'IasminT', 'IasminR', 'IasminQ', 'IasminE']\n"
+    }
+  ]
+}

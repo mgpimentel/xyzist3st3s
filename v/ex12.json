@@ -1,0 +1,29 @@
+{
+  "normalizacao": "strip",
+  "cases": [
+    {
+      "entrada": "Ana\nBeatriz\nlavando\nCarla\nlavando\nlavando\nfinal feliz",
+      "saida": "lavando prato de Beatriz\nlavando prato de Carla\nlavando prato de Ana\n"
+    },
+    {
+      "entrada": "Ana\nBeatriz\nCarla\nlavando\nlavando\nlavando\nfinal feliz",
+      "saida": "lavando prato de Carla\nlavando prato de Beatriz\nlavando prato de Ana\n"
+    },
+    {
+      "entrada": "Ana\nlavando\nBeatriz\nlavando\nCarla\nlavando\nfinal feliz",
+      "saida": "lavando prato de Ana\nlavando prato de Beatriz\nlavando prato de Carla\n"
+    },
+    {
+      "entrada": "Ana\nlavando\nfinal feliz",
+      "saida": "lavando prato de Ana\n"
+    },
+    {
+      "entrada": "Ana\nAna\nAna\nAna\nlavando\nAna\nlavando\nlavando\nlavando\nlavando\nAna\nlavando\nfinal feliz",
+      "saida": "lavando prato de Ana\nlavando prato de Ana\nlavando prato de Ana\nlavando prato de Ana\nlavando prato de Ana\nlavando prato de Ana\n"
+    },
+    {
+      "entrada": "Ana1\nAna2\nAna3\nAna4\nlavando\nAna5\nlavando\nlavando\nlavando\nlavando\nAna6\nlavando\nfinal feliz",
+      "saida": "lavando prato de Ana4\nlavando prato de Ana5\nlavando prato de Ana3\nlavando prato de Ana2\nlavando prato de Ana1\nlavando prato de Ana6\n"
+    }
+  ]
+}
