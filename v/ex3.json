@@ -2,7 +2,7 @@
   "normalizacao": "strip",
   "cases": [
     {
-      "entrada": "Ana\nBruna\nCarla\n.\n\n",
+      "entrada": "Ana\nBruna\nCarla\n.\n",
       "saida": "1 ['Ana']\n2 ['Ana', 'Bruna']\n3 ['Ana', 'Bruna', 'Carla']\n"
     },
     {
@@ -10,7 +10,7 @@
       "saida": "1 ['Ana']\n"
     },
     {
-      "entrada": "Ana6\nAna5\nAna4\nAna3\nAna2\nAna1\n.\n\n",
+      "entrada": "Ana6\nAna5\nAna4\nAna3\nAna2\nAna1\n.\n",
       "saida": "1 ['Ana6']\n2 ['Ana6', 'Ana5']\n3 ['Ana6', 'Ana5', 'Ana4']\n4 ['Ana6', 'Ana5', 'Ana4', 'Ana3']\n5 ['Ana6', 'Ana5', 'Ana4', 'Ana3', 'Ana2']\n6 ['Ana6', 'Ana5', 'Ana4', 'Ana3', 'Ana2', 'Ana1']\n"
     }
   ]
